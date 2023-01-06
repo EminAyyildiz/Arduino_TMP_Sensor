@@ -1,1 +1,16 @@
-# Arduino_TMP_Sensor
+// Written by EMİN AYYILDIZ
+// Arduino_TMP_Sensor
+
+
+
+// Bu projedeki temel hedef TMP sensörünün kullanımını anlamaktır. TMP sensörü bir ısı sensörüdür ve sıcaklık değişimini bu sensör aracılıı ile ölçebiliriz. Bu projedeki hedefim bu sensçrden aldığım veriler ile kullanıcıya görüntüsel ve sessel uyarı vermektir. Sisteme koyduğum 2 yeşil 1 sarı 1 turuncu 1 kırmızı led ve 1 adet RGB led ile beraaber sensörden alınan değer her arttığında yananan ledlerin durumunu da değiştirdim. Ledler soldan sağa doğru sırayla yeşil-yeşil-sarı-turuncu-kırmızı şeklinde yanmaktadır. Ve bu sıralama devam ederken rgb led de aynı sıralama ile yanmaktadır. Eğer ki sensörden gelen değer çok fazla ise 5 led de yanıp sönmekte ve rgb ledimiz kırmızı-mavi yanmaya başlayarak tıpkı bir polis ışığı gibi yanmaya başlar. Bu sisteme ek olarak eklediğim buzzer da turuncu led yanmaya başladığında yanar ve son yani extrem sıcaklık durumunda 2 farklı notada çalarak kullanıcıya uyarı verir. Ek olarak yine extrem sıcaklık durumunda devreye giren motor sistemi soğutmaya çalışır.
+
+
+
+
+// The main goal in this project is to understand the use of the TMP sensor. The TMP sensor is a temperature sensor and we can measure the temperature change through this sensor. My goal in this project is to give visual and audible warnings to the user with the data I get from this sensor. With the 2 green 1 yellow 1 orange 1 red leds and 1 RGB led that I put in the system, I also changed the status of the leds that light up every time the value taken from the sensor increases. The LEDs are lit in order from left to right as green-green-yellow-orange-red. And while this sequence continues, the RGB LED lights up in the same sequence. If the value from the sensor is too high, 5 LEDs also flash and our RGB LED starts to glow red-blue, just like a police light. In addition to this system, the buzzer that I have added turns on when the orange led starts to light, and in case of extreme temperature, it sounds 2 different notes and gives a warning to the user. In addition, the engine, which is activated in case of extreme temperature, tries to cool the system.
+
+
+
+
+// Das Hauptziel dieses Projekts ist es, die Verwendung des TMP-Sensors zu verstehen. Der TMP-Sensor ist ein Temperatursensor und wir können die Temperaturänderung durch diesen Sensor messen. Mein Ziel in diesem Projekt ist es, dem Benutzer mit den Daten, die ich von diesem Sensor erhalte, visuelle und akustische Warnungen zu geben. Mit den 2 grünen 1 gelben 1 orange 1 roten LEDs und 1 RGB-LED, die ich in das System eingebaut habe, habe ich auch den Status der LEDs geändert, die jedes Mal aufleuchten, wenn der vom Sensor entnommene Wert zunimmt. Die LEDs leuchten in der Reihenfolge von links nach rechts grün-grün-gelb-orange-rot. Und während diese Sequenz fortgesetzt wird, leuchtet die RGB-LED in derselben Sequenz auf. Ist der Wert vom Sensor zu hoch, blinken zusätzlich 5 LEDs und unsere RGB-LED beginnt rot-blau zu leuchten, genau wie ein Polizeilicht. Zusätzlich zu diesem System schaltet sich der Summer, den ich hinzugefügt habe, ein, wenn die orangefarbene LED zu leuchten beginnt, und bei extremen Temperaturen gibt er 2 verschiedene Töne aus und warnt den Benutzer. Außerdem versucht der Motor, der bei extremen Temperaturen aktiviert wird, das System zu kühlen.
